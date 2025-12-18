@@ -1,0 +1,10 @@
+app_id,hostname,relation
+APP-CRM,crm-web-01,RUNS_ON
+APP-CRM,crm-app-01,RUNS_ON
+APP-CRM,crm-db-01,DEPENDS_ON
+APP-BILL,bill-app-01,RUNS_ON
+APP-BILL,bill-db-01,DEPENDS_ON
+APP-HR,hr-sp-01,RUNS_ON
+APP-INV,inv-web-01,RUNS_ON
+APP-INV,inv-app-01,RUNS_ON
+APP-INV,inv-db-01,DEPENDS_ON

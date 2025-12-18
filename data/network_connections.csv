@@ -1,0 +1,13 @@
+src,dst,protocol,port,avg_rps,p95_ms
+crm-web-01,crm-app-01,TCP,443,120,35
+crm-app-01,crm-db-01,TCP,1433,80,55
+bill-app-01,bill-db-01,TCP,5432,60,70
+inv-web-01,inv-app-01,TCP,443,90,40
+inv-app-01,inv-db-01,TCP,3306,75,65
+crm-app-01,shared-ad-01,TCP,389,15,10
+bill-app-01,shared-ad-01,TCP,389,12,12
+inv-app-01,shared-ad-01,TCP,389,10,11
+crm-web-01,shared-splunk-01,TCP,9997,5,20
+bill-app-01,shared-splunk-01,TCP,9997,4,22
+orphan-legacy-01,bill-db-01,TCP,5432,8,110
+orphan-legacy-01,shared-splunk-01,TCP,9997,2,25

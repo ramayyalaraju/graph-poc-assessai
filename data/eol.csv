@@ -1,0 +1,4 @@
+component,category,eol_date,severity,matches_hostname
+Microsoft SQL Server 2012,Database,2022-07-12,Critical,crm-db-01
+PostgreSQL 11,Database,2023-11-09,High,bill-db-01
+CentOS 7,OS,2024-06-30,High,orphan-legacy-01

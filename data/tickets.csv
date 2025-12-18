@@ -1,0 +1,5 @@
+ticket_id,source,type,priority,opened,ci,short_desc
+INC-1001,ServiceNow,Incident,P2,2025-10-02,crm-db-01,Intermittent DB latency spikes
+INC-1022,ServiceNow,Incident,P1,2025-11-15,bill-db-01,Billing failures during month-end batch
+CHG-2201,ServiceNow,Change,P3,2025-09-01,inv-app-01,Upgrade Node runtime
+INC-1099,ServiceNow,Incident,P2,2025-11-22,orphan-legacy-01,Unknown job causing DB load

@@ -1,0 +1,13 @@
+hostname,env,os,type,ip,lifecycle_state,warranty_end
+crm-web-01,prod,Windows,web,10.10.1.11,in-use,2026-03-31
+crm-app-01,prod,Windows,app,10.10.1.21,in-use,2026-03-31
+crm-db-01,prod,Windows,db,10.10.1.31,in-use,2025-12-31
+bill-app-01,prod,Linux,app,10.10.2.21,in-use,2027-06-30
+bill-db-01,prod,Linux,db,10.10.2.31,in-use,2025-10-15
+hr-sp-01,prod,Windows,app,10.10.3.21,in-use,2027-01-10
+inv-web-01,prod,Linux,web,10.10.4.11,in-use,2026-08-01
+inv-app-01,prod,Linux,app,10.10.4.21,in-use,2026-08-01
+inv-db-01,prod,Linux,db,10.10.4.31,in-use,2026-08-01
+shared-ad-01,prod,Windows,shared-service,10.10.9.10,in-use,2026-12-31
+shared-splunk-01,prod,Linux,shared-service,10.10.9.20,in-use,2026-12-31
+orphan-legacy-01,prod,Linux,app,10.10.8.55,unknown,2024-12-31

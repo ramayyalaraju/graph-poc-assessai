@@ -1,0 +1,7 @@
+app_id,app_name,business_unit,criticality,tech_stack,owner_team
+APP-CRM,CustomerCRM,Sales,High,IIS/.NET,Sales-Apps
+APP-BILL,BillingPro,Finance,High,Java/Tomcat,Fin-Apps
+APP-HR,PeopleHub,HR,Medium,SharePoint,HR-IT
+APP-INV,InventoryEdge,SupplyChain,High,Node/Express,SCM-Apps
+APP-ANL,InsightsLake,Enterprise,Medium,Python/Spark,Data-Platform
+APP-PORT,PartnerPortal,Sales,Medium,Nginx/React,Digital-Apps

@@ -1,0 +1,12 @@
+hostname,monthly_cost_usd,cost_type
+crm-web-01,420,compute
+crm-app-01,680,compute
+crm-db-01,1450,compute
+bill-app-01,750,compute
+bill-db-01,1600,compute
+inv-web-01,380,compute
+inv-app-01,620,compute
+inv-db-01,1200,compute
+orphan-legacy-01,900,compute
+shared-ad-01,500,compute
+shared-splunk-01,950,compute

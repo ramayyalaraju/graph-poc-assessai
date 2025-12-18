@@ -1,0 +1,7 @@
+hostname,metric,value,period
+crm-db-01,cpu_util_avg,72,7d
+crm-db-01,latency_p95_ms,55,7d
+bill-db-01,cpu_util_avg,81,7d
+bill-db-01,latency_p95_ms,70,7d
+orphan-legacy-01,cpu_util_avg,65,7d
+orphan-legacy-01,latency_p95_ms,110,7d

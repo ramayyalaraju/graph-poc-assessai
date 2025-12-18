@@ -1,0 +1,5 @@
+doc_id,doc_type,title,related_to,text
+DOC-CRM-RUNBOOK,Runbook,CustomerCRM Runbook,APP-CRM,"Runbook: CustomerCRM. Key dependencies: crm-db-01 (SQL), shared-ad-01 (LDAP). Month-end reporting causes higher load."
+DOC-BILL-RUNBOOK,Runbook,BillingPro Runbook,APP-BILL,BillingPro runs on bill-app-01 and uses bill-db-01. Batch jobs nightly at 2AM; month-end high risk.
+DOC-ARCH-INV,Architecture,InventoryEdge Architecture,APP-INV,InventoryEdge: inv-web-01 -> inv-app-01 -> inv-db-01. Uses shared-splunk-01 for log forwarding.
+DOC-UNKNOWN,Note,Legacy job note,orphan-legacy-01,Legacy host orphan-legacy-01 runs a scheduled ETL job pushing data into Billing database during month-end.
